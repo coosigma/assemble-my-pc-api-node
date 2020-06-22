@@ -12,6 +12,7 @@ async function run() {
 	// 		name: "CPU",
 	// 		price: 365,
 	// 		type: "i5 10400",
+	// 		producer: "Intel",
 	// 	},
 	// });
 
@@ -21,6 +22,7 @@ async function run() {
 	// 		name: "CPU",
 	// 		price: 343.85,
 	// 		type: "Ryzen 5 3600",
+	// 		producer: "AMD",
 	// 	},
 	// });
 
@@ -30,6 +32,7 @@ async function run() {
 	// 		name: "RAM",
 	// 		price: 295,
 	// 		type: "DDR4 3200 2*16GB",
+	// 		producer: "Kingston",
 	// 	},
 	// });
 
