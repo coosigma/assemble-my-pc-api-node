@@ -4,7 +4,7 @@ const { Client } = require("@elastic/elasticsearch");
 const client = new Client({ node: "http://localhost:9200" });
 
 async function run() {
-	// Let's start by indexing some data
+	// // Let's start by indexing some data
 	// await client.index({
 	// 	index: "pc-components",
 	// 	// type: '_doc', // uncomment this line if you are using {es} ≤ 6
@@ -13,6 +13,7 @@ async function run() {
 	// 		price: 365,
 	// 		type: "i5 10400",
 	// 		producer: "Intel",
+	// 		GPUIntegrated: true,
 	// 	},
 	// });
 
@@ -23,6 +24,7 @@ async function run() {
 	// 		price: 343.85,
 	// 		type: "Ryzen 5 3600",
 	// 		producer: "AMD",
+	// 		GPUIntegrated: false,
 	// 	},
 	// });
 
@@ -33,6 +35,7 @@ async function run() {
 	// 		price: 295,
 	// 		type: "DDR4 3200 2*16GB",
 	// 		producer: "Kingston",
+	// 		ECC: false,
 	// 	},
 	// });
 
